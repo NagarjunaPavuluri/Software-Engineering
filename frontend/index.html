@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Manage Properties</title>
+  <title>Rental Application</title>
 </head>
 <body>
-  <h1>Manage Properties</h1>
+  <h1></h1>Rental Application</h1>
   <form id="manage-property-form">
     <label for="pid">Property ID:</label>
     <input type="text" id="pid" name="pid">
@@ -37,7 +37,6 @@
       if (response.ok) {
         const data = await response.json();
         alert(data.result);
-        // Perform any necessary actions after the property is deleted
         form.reset();
         listProperties();
       } else {
