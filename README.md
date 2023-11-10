@@ -45,13 +45,13 @@
 8. Test the application:
    - In the API Gateway configuration page, navigate to the "Dashboard" tab.
    - Copy the "Invoke URL" for your deployed API.
-   - Open the Cloud9 IDE and create a new file named `delete-property.html`.
-   - Copy and paste the front-end code provided earlier into the `delete-property.html` file.
+   - Open the Cloud9 IDE and upload index.html.
    - Replace the API endpoint URL in the front-end code with the copied "Invoke URL".
-   - Save the `delete-property.html` file.
-   - Right-click on the `delete-property.html` file in Cloud9 and choose "Preview".
+   - Save the index.html file.
+   - Right-click on the index.html file in Cloud9 and choose "Preview".
    - Click on the preview link to open the front-end application in a new tab.
    - Enter a property ID and click "Delete" to test the delete functionality.
+
 
 9. Debug and verify the result:
    - In the Lambda function configuration page, go to the "Monitoring" tab.
