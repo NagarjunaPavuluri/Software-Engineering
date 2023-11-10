@@ -1,5 +1,6 @@
 # Software-Engineering
 
+
 1.Write the serverless,frontend and back end files for the delete-property
 
 2. Create a DynamoDB table:
