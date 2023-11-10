@@ -1,7 +1,7 @@
 # Software-Engineering
 
 
-1.Write the serverless,frontend and back end files for the delete-property
+1.Write the serverless,frontend and back end files.
 
 2. Create a DynamoDB table:
    - Go to the AWS Management Console and navigate to the DynamoDB service.
