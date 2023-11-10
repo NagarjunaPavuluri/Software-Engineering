@@ -15,12 +15,9 @@ form.addEventListener("submit", (e) => {
   fetch(resource_url, fetchOptions)
     .then((response) => response.json())
     .then((data) => {
-      // Handle the response data
       console.log(data);
-      // Perform any necessary actions after the property is deleted
     })
     .catch((error) => {
-      // Handle any errors that occurred during the request
       console.error(error);
     });
   form.reset();
