@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Property List</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+<div class="container">
+  <div class="row mt-3">
+    <div class="col-md-6">
+      <h2>Delete Property</h2>
+
+      <form id="delete-property-form">
+        <div class="form-group">
+          <label for="property-id">Property ID: </label>
+          <input type="text" name="property-id" id="property-id" /><br />
+        </div>
+        <button type="submit" class="btn btn-danger" id="submit">
+          Delete Property
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+<script src="./js/delete_property.js"></script>
+</body>
+</html>
